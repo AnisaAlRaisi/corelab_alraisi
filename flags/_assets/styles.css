@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+
+div {
+  width: 400px;
+  height: 120px;
+}
+
+.inline{
+  display: inline;
+  width:90vw;
+  height: 45vw;
+}
+
+.red-box {
+  background-color: red;
+  position: relative;
+  margin: 10px;
+
+
+}
+
+.black-box {
+  background-color: black;
+  height:50%;
+  width:100%;
+  position:absolute;
+  top:50%;
+
+
+}
+
+.blue-box{
+background-color: #6495ED;
+position: relative;
+
+}
+
+
+
+.white-box{
+  background-color: white;
+  position: absolute;
+  height:33%;
+  width:100%;
+  top: 33.3%;
+}
+
+.teal-box{
+  background-color: #00B9E4;
+  position: relative;
+
+}
+
+
+
+  .green-box{
+    background-color: #3F9C35;
+    position: absolute;
+    height:33.3%;
+    bottom:0%;
+    width:100%;
+  }
+
+  .red-rec{
+    background-color: red;
+    position: relative;
+    height:33.3%;
+    width:100%;
+    top:33.3%;
+    bottom:33.3%;
+  }
+
+  .navy-box{
+    background-color: #0C4076;
+    position: relative;
+    height:33.3%;
+    width:100%;
+    top:33.3%;
+    bottom:33.3%;
+  }
+
+  .white{
+    background-color: white;
+    position: absolute;
+    height:33.3%;
+    bottom:0%;
+    width:100%;
+  }
+
+
+.arg{
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  left: 40%;
+  background-image: url('argentina.png');
+  background-size: cover;
+}
+
+  .azr{
+    width: 20%;
+    height: 100%;
+    position: absolute;
+    left: 40%;
+    background-image: url('az.png');
+    background-size: cover;
+    z-index: 2;
+}
+
+.angola{
+  width: 50px;
+  height: 60px;
+  position: absolute;
+  top: -50%;
+  left: 40%;
+  background-image: url('angola.png');
+  background-size: cover;
+
+}
+
+.serbia{
+  height:80px;
+  width:40px;
+  position: absolute;
+  left: 10%;
+  top: -50%;
+  background-image: url('serbia.png');
+  background-size: cover;
+  z-index: 2;
+}
+
+
+html, body { height: 100%; }
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
